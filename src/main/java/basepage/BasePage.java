@@ -1,5 +1,4 @@
-package pages.basepage;
-
+package basepage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,10 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-
 public class BasePage {
-
-    //Una sola instancia del WebDriver compartida para todas las clases
     protected static WebDriver driver;
     private static WebDriverWait wait;
 
@@ -21,7 +17,7 @@ public class BasePage {
         ChromeOptions chromeOptions = new ChromeOptions();
         driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
-        wait = new WebDriverWait(driver, 10);
+
 
 
     }
@@ -31,11 +27,11 @@ public class BasePage {
         BasePage.driver = driver;
         PageFactory.initElements(driver,this);
         driver.manage().window().maximize();
-        wait = new WebDriverWait(driver, 10);
+
     }
 
 
-    public static void navegarAFoodka(String url) {
+    public static void navegarAFoodKa(String url) {
         driver.get(url);
     }
 
@@ -49,22 +45,18 @@ public class BasePage {
     }
 
     //Metodo Para Escrbir en los campos
-    public void escribirEnCampos(WebElement webElement, String texto){
+    public void escribir(WebElement webElement, String texto){
         webElement.clear(); //Limpiar el campo de texto
         webElement.sendKeys(texto);
     }
-
     //Metodo cerra navegador
     public void cerrarNavegador(){
         driver.quit();
 
     }
 
-    //Metodo para validarTexto
+    //Metodo para validar
     public String textFromElement(WebElement webElement){
         return webElement.getText();
     }
 }
-
-
-
