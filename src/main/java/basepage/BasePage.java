@@ -55,7 +55,6 @@ public class BasePage {
 
     }
 
-    //Metodo para validar
     public String textFromElement(WebElement webElement){
         return webElement.getText();
     }
