@@ -4,7 +4,7 @@ import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 
-public class ValidarFormularioFechaReservaSteps {
+public class ValidarFechaReservaSteps {
     @Dado("Que me encuentro en el formulario de la reserva")
     public void que_me_encuentro_en_el_formulario_de_la_reserva() {
         // Write code here that turns the phrase above into concrete actions

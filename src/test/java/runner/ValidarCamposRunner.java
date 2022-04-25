@@ -7,9 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        features = {"src/test/resources/features/ValidarFormularioFechaReserva.feature"},
+        features = {"src/test/resources/features/ValidarCampos.feature"},
         glue ="steps"
 )
-
-public class ValidarFormularioFechaReservaRunner {
+public class ValidarCamposRunner {
 }

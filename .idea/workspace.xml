@@ -5,31 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c200a33-f270-469c-9488-3f80ec014867" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/foodkapage/FoodkaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/ValidarFormularioFechaReservaRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ValidarFormularioFechaReservaSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ValidarBotonReserva.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ValidarFormularioFechaReserva.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/ValidarFormularioReservaRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ValidarFormularioReservaSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ValidarCampos.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basepage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basepage/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/runner1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/FoodkaRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/steps1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Fodka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/vacio.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ValidarFormularioFechaReservaRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ValidarFechaReservaRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ValidarFormularioFechaReservaSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ValidarFechaReservaSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ValidarFormularioFechaReserva.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ValidarFechaReserva.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ValidarFormularioReserva.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ValidarFormularioReserva.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Substep Feature" />
         <option value="Class" />
+        <option value="Substep Feature" />
       </list>
     </option>
   </component>
@@ -64,7 +53,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Serenity Curso Youtube" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: ValidarFormularioFechaReserva">
+  <component name="RunManager" selected="Cucumber Java.Scenario: validar formulario de reserva">
     <configuration name="Feature: ValidarFormularioFechaReserva" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ValidarFormularioFechaReserva.feature" />
@@ -124,15 +113,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: validar formulario de reserva" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/foodka.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ValidarFormularioReserva.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="FoodKaPOM.test" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="NAME_FILTER" value="^validar formulario de reserva$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^validar formulario de reserva$&quot;" />
       <shortenClasspath name="MANIFEST" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="SUGGESTED_NAME" value="Scenario: validar formulario de reserva" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -176,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: validar formulario de reserva" />
         <item itemvalue="Cucumber Java.Feature: ValidarFormularioFechaReserva" />
         <item itemvalue="JUnit.FoodkaRunner" />
         <item itemvalue="Cucumber Java.Scenario: abrir la pagina" />
         <item itemvalue="Cucumber Java.Feature: foodka" />
-        <item itemvalue="Cucumber Java.Scenario: " />
       </list>
     </recent_temporary>
   </component>
