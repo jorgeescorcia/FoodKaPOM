@@ -1,5 +1,6 @@
 package basepage;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,6 +18,7 @@ public class BasePage {
         ChromeOptions chromeOptions = new ChromeOptions();
         driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
+        WebDriverManager.chromedriver().setup();
 
 
 
@@ -26,6 +28,7 @@ public class BasePage {
     public BasePage(WebDriver driver) {
         BasePage.driver = driver;
         PageFactory.initElements(driver,this);
+
         driver.manage().window().maximize();
 
     }
