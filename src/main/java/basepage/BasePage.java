@@ -15,20 +15,16 @@ public class BasePage {
     private static WebDriverWait wait;
 
     static {
-        ChromeOptions chromeOptions = new ChromeOptions();
-        driver = new ChromeDriver(chromeOptions);
-        driver.manage().window().maximize();
+
         WebDriverManager.chromedriver().setup();
-
-
-
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
     }
 
     //Constructor para crear la instacia del driver una sola vez
     public BasePage(WebDriver driver) {
         BasePage.driver = driver;
         PageFactory.initElements(driver,this);
-
         driver.manage().window().maximize();
 
     }
