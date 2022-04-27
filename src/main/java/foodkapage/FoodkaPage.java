@@ -4,6 +4,7 @@ import basepage.BasePage;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 
 public class FoodkaPage extends BasePage {
@@ -19,9 +20,6 @@ public class FoodkaPage extends BasePage {
     @FindBy(xpath = "//body/div[2]/div[3]/div[1]/h2[1]/button[1]")
     private WebElement CERRAR_VENTANA;
 
-    public FoodkaPage() {
-        super(driver);
-    }
 
 
     public void navegar_a_foodka(){

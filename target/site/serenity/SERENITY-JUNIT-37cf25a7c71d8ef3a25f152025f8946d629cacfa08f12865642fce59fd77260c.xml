@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Consultar Reservas" skipped="0" tests="2" time="6.28" timestamp="2022-04-27 03:52:47"><testcase name="Consultar reserva exitosa"/><testcase name="Consulta de reserva fallida"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Consultar Reservas" skipped="0" tests="2" time="21.26" timestamp="2022-04-27 04:31:28"><testcase name="Consultar reserva exitosa"/><testcase name="Consulta de reserva fallida"/></testsuite>

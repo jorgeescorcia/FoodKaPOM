@@ -8,6 +8,7 @@ import io.cucumber.java.es.Entonces;
 
 public class ConsultarReservasSteps {
     FoodkaPage foodkapage;
+    FoodkaPage hola;
 
     @Dado("Que me encuentro en el modulo de consultar reserva")
     public void que_me_encuentro_en_el_modulo_de_consultar_reserva() {
@@ -17,22 +18,21 @@ public class ConsultarReservasSteps {
 
     @Cuando("ingreso el codigo de la reserva en el campos correspondiente")
     public void ingreso_el_codigo_de_la_reserva_en_el_campos_correspondiente() {
-        foodkapage.clickBtnMisReservas();
-        foodkapage.escribirCampoReserva();
+        //foodkapage.clickBtnMisReservas();
+        //foodkapage.escribirCampoReserva();
     }
 
     @Entonces("se consulte y se visualice la informacion de la reserva")
     public void se_consulte_y_se_visualice_la_informacion_de_la_reserva() {
-        foodkapage.clickBtnBuscar();
-        foodkapage.cerrarVentanaReservas();
+        //foodkapage.clickBtnBuscar();
+//        foodkapage.cerrarVentanaReservas();
         foodkapage.cerrarNavegador();
-
     }
 
     @Dado("Que me encuentro en la opcion de consultar reserva")
     public void que_me_encuentro_en_la_opcion_de_consultar_reserva() {
-        foodkapage = new FoodkaPage();
-       foodkapage.navegar_a_foodka();
+        hola = new FoodkaPage();
+        hola.navegar_a_foodka();
 
     }
 

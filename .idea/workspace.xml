@@ -5,30 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c200a33-f270-469c-9488-3f80ec014867" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/setup/WebUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7328c876788e13511f9ed9d89463b2ae8fc57a8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/basepage/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/basepage/BasePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/foodkapage/FoodkaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/foodkapage/FoodkaPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/Fodka.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/steps/Fodka.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/features/ConsultarReserva.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/ConsultarReserva.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/features/ValidarFormularioReserva.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/ValidarFormularioReserva.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/ConsultarReservasSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/steps/ConsultarReservasSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basepage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basepage/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/foodkapage/FoodkaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/foodkapage/FoodkaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ConsultarReservasRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ConsultarReservasRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/ConsultarReservasSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ConsultarReservasSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Fodka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Fodka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ConsultarReserva.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ConsultarReserva.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ValidarFormularioReserva.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ValidarFormularioReserva.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/37cf25a7c71d8ef3a25f152025f8946d629cacfa08f12865642fce59fd77260c.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/37cf25a7c71d8ef3a25f152025f8946d629cacfa08f12865642fce59fd77260c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/37cf25a7c71d8ef3a25f152025f8946d629cacfa08f12865642fce59fd77260c.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/37cf25a7c71d8ef3a25f152025f8946d629cacfa08f12865642fce59fd77260c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3b36da50f9d72cdff3781c14872a9ffd18f10e1af8f8745833dc5f77e78f7538.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3b36da50f9d72cdff3781c14872a9ffd18f10e1af8f8745833dc5f77e78f7538.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3b36da50f9d72cdff3781c14872a9ffd18f10e1af8f8745833dc5f77e78f7538.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3b36da50f9d72cdff3781c14872a9ffd18f10e1af8f8745833dc5f77e78f7538.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-37cf25a7c71d8ef3a25f152025f8946d629cacfa08f12865642fce59fd77260c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-37cf25a7c71d8ef3a25f152025f8946d629cacfa08f12865642fce59fd77260c.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +64,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28DLRx5HZpGgETaCEmqYznEoNQ6" />
   <component name="ProjectViewState">
@@ -204,6 +204,17 @@
       <updated>1650746218500</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FoodKaPOM$Scenario__.ic" NAME="Scenario:  Coverage Results" MODIFIED="1650899883099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

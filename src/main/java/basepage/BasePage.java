@@ -1,6 +1,7 @@
 package basepage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,31 +16,29 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
 
-    protected static WebDriver driver;
+
+    protected  WebDriver driver;
     private static WebDriverWait wait;
 
 
-static{
+/*ublic static void setUp() {
         ChromeOptions chromeOptions = new ChromeOptions();
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver(chromeOptions);
+//        driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
        //wait = new WebDriverWait(driver,10);
 
-    }
+    }*/
 
     //Constructor para crear la instacia del driver una sola vez
-    public BasePage(WebDriver driver) {
-        BasePage.driver = driver;
+    public BasePage() {
+        this.driver = WebDriverManager.chromedriver().create();
         PageFactory.initElements(driver,this);
         //driver.manage().window().maximize();
        //wait = new WebDriverWait(driver, 10);
-
-
-
     }
 
-    public static void navegarAFoodKa(String url) {
+    public void navegarAFoodKa(String url) {
         driver.get(url);
     }
 
