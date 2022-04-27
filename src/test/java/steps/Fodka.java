@@ -8,11 +8,11 @@ import io.cucumber.java.es.Entonces;
 
 
 public class Fodka {
-    FoodkaPage foodkapage = new FoodkaPage();
+
 
     @Dado("que quiero comprar")
     public void que_quiero_comprar() {
-      foodkapage.navegar_a_foodka();
+
 
     }
 

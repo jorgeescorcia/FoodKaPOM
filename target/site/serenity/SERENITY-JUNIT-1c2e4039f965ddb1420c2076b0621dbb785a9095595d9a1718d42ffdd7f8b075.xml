@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Validacion de campos del formulario" skipped="0" tests="2" time="0.81" timestamp="2022-04-26 10:47:12"><testcase name="validar campos obligatorios completos"/><testcase name="validar campos obligatorios incompletos"/></testsuite>

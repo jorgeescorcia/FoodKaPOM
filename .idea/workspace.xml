@@ -5,16 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c200a33-f270-469c-9488-3f80ec014867" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/ConsultarReservasRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ConsultarReservasSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ConsultarReserva.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/setup/WebUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7328c876788e13511f9ed9d89463b2ae8fc57a8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/basepage/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/basepage/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/foodkapage/FoodkaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/foodkapage/FoodkaPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/Fodka.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/steps/Fodka.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/ConsultarReserva.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/ConsultarReserva.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/ValidarFormularioReserva.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/ValidarFormularioReserva.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basepage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basepage/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/foodkapage/FoodkaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/foodkapage/FoodkaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ConsultarReservasRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ConsultarReservasRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ConsultarReservasSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ConsultarReservasSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Fodka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Fodka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ConsultarReserva.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ConsultarReserva.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ValidarFormularioReserva.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ValidarFormularioReserva.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +39,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FoodKaPOM" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,10 +77,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Serenity Curso Youtube" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ServiceFoodka" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: ConsultarReserva">
+  <component name="RunManager" selected="JUnit.ConsultarReservasRunner">
     <configuration name="Feature: ConsultarReserva" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ConsultarReserva.feature" />
@@ -70,77 +101,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: ValidarCampos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Consulta de reserva fallida" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ValidarCampos.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ConsultarReserva.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="FoodKaPOM.test" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="NAME_FILTER" value="^Consulta de reserva fallida$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Consulta de reserva fallida$&quot;" />
       <shortenClasspath name="MANIFEST" />
-      <option name="SUGGESTED_NAME" value="Feature: ValidarCampos" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: ValidarFormularioFechaReserva" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ValidarFormularioFechaReserva.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="FoodKaPOM.test" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="MANIFEST" />
-      <option name="SUGGESTED_NAME" value="Feature: ValidarFormularioFechaReserva" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: validar campos obligatorios completos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ValidarCampos.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="FoodKaPOM.test" />
-      <option name="NAME_FILTER" value="^validar campos obligatorios completos$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^validar campos obligatorios completos$&quot;" />
-      <shortenClasspath name="MANIFEST" />
-      <option name="SUGGESTED_NAME" value="Scenario: validar campos obligatorios completos" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: validar formulario de reserva" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ValidarFormularioReserva.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="FoodKaPOM.test" />
-      <option name="NAME_FILTER" value="^validar formulario de reserva$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^validar formulario de reserva$&quot;" />
-      <shortenClasspath name="MANIFEST" />
-      <option name="SUGGESTED_NAME" value="Scenario: validar formulario de reserva" />
+      <option name="SUGGESTED_NAME" value="Scenario: Consulta de reserva fallida" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -159,6 +129,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConsultarReservasRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoodKaPOM.test" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.ConsultarReservasRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoodkaRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoodKaPOM.test" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.FoodkaRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidarCamposRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoodKaPOM.test" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.ValidarCamposRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <shortenClasspath name="MANIFEST" />
       <option name="TEST_OBJECT" value="class" />
@@ -168,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConsultarReservasRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Consulta de reserva fallida" />
         <item itemvalue="Cucumber Java.Feature: ConsultarReserva" />
-        <item itemvalue="Cucumber Java.Feature: ValidarCampos" />
-        <item itemvalue="Cucumber Java.Scenario: validar campos obligatorios completos" />
-        <item itemvalue="Cucumber Java.Scenario: validar formulario de reserva" />
-        <item itemvalue="Cucumber Java.Feature: ValidarFormularioFechaReserva" />
+        <item itemvalue="JUnit.ValidarCamposRunner" />
+        <item itemvalue="JUnit.FoodkaRunner" />
       </list>
     </recent_temporary>
   </component>

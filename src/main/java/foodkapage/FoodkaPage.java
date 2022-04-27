@@ -5,24 +5,43 @@ import basepage.BasePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+
 public class FoodkaPage extends BasePage {
-    @FindBy(xpath = "//input[@name=\"username\"]")
-    private WebElement username;
-    @FindBy (xpath = "//input[@name=\"password\"]")
-    private WebElement password;
-    @FindBy (xpath = "//input[@class='button' and @value='Log In']")
-    private WebElement btnLogin;
+    @FindBy(xpath = "//body/div[@id='root']/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/button[1]")
+    private WebElement BTN_MIS_RESERVAS;
 
-    @FindBy (xpath = "//h1[contains(text(),'Accounts Overview')]")
-    private WebElement textValidateLogin;
-    @FindBy (xpath = "//p[contains(text(),'Please enter a username and password.')]")
-    private WebElement textValidateLoginFailed;
+    @FindBy(xpath = "//input[@id=':r2:']")
+    private WebElement INPUT_MIS_RESERVAS;
 
-    public void navegar_a_foodka(){
-        navegarAFoodKa("https://www.google.com");
-    }
+    @FindBy(xpath = "//body/div[2]/div[3]/div[1]/div[1]/div[1]/button[2]")
+    private WebElement BTN_BUSCAR;
+
+    @FindBy(xpath = "//body/div[2]/div[3]/div[1]/h2[1]/button[1]")
+    private WebElement CERRAR_VENTANA;
 
     public FoodkaPage() {
         super(driver);
     }
+
+
+    public void navegar_a_foodka(){
+        navegarAFoodKa("https://foodkaqadeploy.web.app/");
+    }
+
+    public void clickBtnMisReservas(){
+        clickElement(BTN_MIS_RESERVAS);
+    }
+    public void escribirCampoReserva(){
+       escribir(INPUT_MIS_RESERVAS,"86ae5c8d-d");
+    }
+
+    public void clickBtnBuscar(){
+        clickElement(BTN_BUSCAR);
+    }
+    public void cerrarVentanaReservas(){
+        clickElement(CERRAR_VENTANA);
+    }
+
+
+
 }

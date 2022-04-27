@@ -3,7 +3,7 @@
 
 Característica: Funcionalidad formulario reserva
     Yo como comensal
-    Requiero seleccionar una fecha
+    requiero llenar el  formulario
     para poder agendar la reserva
 
     Escenario:  validar formulario de reserva
